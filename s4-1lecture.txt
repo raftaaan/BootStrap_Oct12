@@ -1,0 +1,23 @@
+Screen 
+	-Desktop
+	-Tablet
+	-Mobile
+Boostrap 4
+- popular webdesign css framework, developed by Mark Otto 	and Jacob Thornton for Twitter.
+
+Features of Bootstrap
+	-Easy Set Up
+	-Mobile-First Approach
+
+
+Affiliated Companies
+	-Twitter
+	-Spotify
+	-Lyft
+	-Coursera
+	-LinkedIn
+	-Snapshot
+
+Two ways to incorporate bootstrap
+	1. Local Resources
+	2. CDN (Content Delivery Network )
