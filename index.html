@@ -5,6 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>BootStrap</title>
 
+	<link rel="shortcut icon" type="image/jpg" href="assets/images/logo2.png"/>
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
@@ -21,18 +23,65 @@
  
 </head>
 <body>
-	<nav>
-		<div>
-			<a href="#">Profile</a>
-			<button>Submit</button>
-			<div>
-				<div>
-					<a href="#">About Me</a>
-					<a href="#">Skills</a>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">Profile</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMArkup">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+
+
+			<div class="collapse navbar-collapse" id="#navbarNavAltMArkup">
+				<div class="navbar-nav">
+					<a class="nav-link active" href="#">About Me</a>
+					<a class="nav-link active" href="#">Skills</a>
 				</div>
 			</div>
 		</div>
 	</nav>
+
+	<h1 class="text-center">BootStrap Introduction</h1>
+	<h2 class="text-center">Classes of Text</h2>
+
+	<p class="bg-info text-white">Primary</p>
+	<p class="bg-primary text-white">Secondary</p>
+	<p class="bg-warning text-white">Success</p>
+
+	<div class="mt-5 p-3 bg-dark text-light">
+		BootStrap has its own responsive paddings and margins, and m stands for margins in its classes - mt mb ml mr While p denotes padding - pt pb pl pr
+
+		While p stands for padding - pt pb pl pr
+	</div>
+
+	<div class="my-5 px-4 bg-primary text-white">
+		On the sides, BootStrap Paddings and Margins can be used.
+
+		<ul>
+			<li>
+				t - sets either margin of padding could be placed at the top of our element: mt or pt.
+			</li>
+			<li>
+				b - sets either margin of padding could be placed at the bottom of our element: mb or pb.
+			</li>
+			<li>
+				y - sets either margin of padding could be placed at the y-axis of our element on top and bottom: my or py.
+			</li>
+			<li>
+				x - sets either margin of padding could be placed at the x-axis of our element on left and right: my or py.
+			</li>
+			<li>
+				l - sets either margin of padding could be placed at the left most of our element: ml or pl.
+			</li>
+			<li>
+				r - sets either margin of padding could be placed at the right most of our element: mr or pr.
+			</li>
+			<li>
+				blank - sets either margin of padding could be on all sides of our element: m or p.
+			</li>
+
+		</ul>
+
+	</div>
 
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 	
